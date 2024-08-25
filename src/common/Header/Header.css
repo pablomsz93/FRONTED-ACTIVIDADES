@@ -1,0 +1,70 @@
+.headerDesign {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(89.58deg, rgba(210, 202, 48, .9) .01%, rgba(222, 137, 33, 0.9) 99.94%);
+}
+
+.image-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 5.2em;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image-logo:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+
+}
+
+.image-logo img {
+    width: 11em;
+    height: auto;
+}
+
+.buttonSession {
+    height: 2.5em;
+    width: 9em;
+    color: white;
+    font-weight: bolder;
+    transition: 0.4s;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+    display: flex;
+    padding: 0;
+    background-color: transparent;
+    border: 0.13em solid white;
+    border-radius: 4em;
+    cursor: pointer;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonSession:hover {
+    transition: 0.4s;
+    background-color: rgba(254, 254, 254, 0.318); 
+    cursor: pointer;
+}
+
+.elements-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

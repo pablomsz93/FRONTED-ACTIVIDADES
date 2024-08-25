@@ -1,0 +1,36 @@
+.activityDesign{
+    height: 89.5vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/src/img/BackgroundColor.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    gap: 4em;
+    overflow: hidden;
+}
+
+.activityCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 5em;
+}
+
+.selectDay{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}

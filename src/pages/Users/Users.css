@@ -1,0 +1,28 @@
+.usersDesign{
+    height: 89.5vh;
+    width: 100vw;
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../../img/BackgroundColor.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.containerUsers{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    height: 50em;
+    width: 96em;
+
+}

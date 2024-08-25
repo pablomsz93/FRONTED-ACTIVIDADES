@@ -1,0 +1,68 @@
+.AppointmentDesign{
+    height: 89.5vh;
+    width: 100vw;
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../../img/BackgroundColor.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.containerAppointment{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 50em;
+    width: 96em;
+}
+
+.inforAppointment{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    width: 58em;
+    height: 45em;
+    gap: 1em;
+    border-radius: 1.1em;
+    background-color: rgba(255, 255, 255, 0.405);
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.125);
+}
+
+.newAppointmentButton{
+    margin-top: 2em;
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap:0.8em;
+}
+
+.select-activity{
+flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 2em;
+    justify-content: flex-end;
+    width: 40em;
+    display: flex;
+    gap: 2em;
+}
+
+.appointment-filtered{
+    height: 20em;
+}

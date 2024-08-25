@@ -1,0 +1,67 @@
+.cardAppointment {
+  width: 50em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 3em;
+}
+
+.cardAppointment:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#cardpendingColor {
+  background-color: #ffc107;
+}
+
+#cardapprovedColor {
+  background-color: #4fd20e99;
+}
+
+#cardcancelledColor {
+  background-color: #ff182e9c;
+}
+
+#cardcompletedColor {
+  background-color: #007bff;
+}
+
+#carddefaultColor {
+  background-color: #f8f8f8;
+}
+
+.cardHeader {
+  text-align: right;
+}
+
+.cardInfo {
+  margin-bottom: 8px;
+}
+
+.infoLabel {
+  font-weight: bold;
+  margin-right: 8px;
+  color: #333;
+}
+
+.infoValue {
+  color: #555;
+}
+
+.idAppointment {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}

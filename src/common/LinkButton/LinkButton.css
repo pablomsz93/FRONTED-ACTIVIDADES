@@ -1,0 +1,14 @@
+.linkButtonDesign {
+    color: white;
+    font-weight: bolder;
+    transition: 0.2s;
+    margin-right: 2em;
+    margin-bottom: 0.3em;
+}
+
+.linkButtonDesign:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+

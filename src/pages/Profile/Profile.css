@@ -1,0 +1,80 @@
+.profileDesign{
+    height: 89.5vh;
+    width: 100vw;
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../../img/BackgroundColor.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.inforUser{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+.inforProfile{
+    height: 35em;
+    width: 32em;
+}
+
+.contentProfile{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10em;
+}
+.nameProfile{
+    font-size: 1.8em
+}
+
+.passwordButton{
+    cursor: pointer;
+}
+.fieldsProfile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.passwordContent{
+    gap: 5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.panelAdministracion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-top: -1em;
+}

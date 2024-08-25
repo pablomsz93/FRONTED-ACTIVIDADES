@@ -1,0 +1,88 @@
+.registerDesign {
+    height: 89.5vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+    background-image: url(../../img/Background.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.content {
+    height: 47em;
+    width: 29em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3em;
+    border: 2px solid rgb(255 255 255 / 55%);
+    background-color: rgbargb(255 255 255 / 70%);
+    border-radius: 1.1em;
+    background-color: rgba(255, 255, 255, 0.405);
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.125);
+}
+
+.elementsRegister {
+    width: 17em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1em;
+}
+
+.buttonCreateUser {
+    height: 2.5em;
+    width: 18em;
+    color: black;
+    font-weight: bolder;
+    transition: 0.4s;
+    display: flex;
+    padding: 0;
+    background-color: transparent;
+    border: 0.13em solid white;
+    border-radius: 4em;
+    cursor: pointer;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonCreateUser:hover {
+    transition: 0.4s;
+    background-color: rgba(254, 254, 254, 0.318);
+    cursor: pointer;
+}
+
+.titleRegister {
+    font-size: 1.8em;
+    margin-bottom: 0.3em;
+}
+
+.registerButton{
+    display: flex;
+    height: 2.4em;
+    width: 21em;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-top: 1em;
+}    
